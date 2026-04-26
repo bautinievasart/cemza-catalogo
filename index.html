@@ -449,7 +449,7 @@ function cardHTML(a){
     <div class="card-body">
       <div>
         <div class="card-title">${esc(a.marca)} ${esc(a.modelo)}</div>
-        <div class="card-subtitle">${esc(a.dominio||'')} ${a.anio ? '· ' + a.anio : ''}</div>
+        <div class="card-subtitle">${a.anio ? '· ' + a.anio : ''}</div>
       </div>
       <div class="card-specs">
         <div class="spec-pill">
