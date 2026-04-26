@@ -449,7 +449,7 @@ function cardHTML(a){
     <div class="card-body">
       <div>
         <div class="card-title">${esc(a.marca)} ${esc(a.modelo)}</div>
-        <div class="card-subtitle">${a.anio ? '· ' + a.anio : ''}</div>
+        <div class="card-subtitle">${a.anio ? ' ' + a.anio : ''}</div>
       </div>
       <div class="card-specs">
         <div class="spec-pill">
@@ -530,7 +530,7 @@ function renderModalBody(a){
     <div class="modal-header">
       <div>
         <div class="modal-title">${esc(a.marca)} ${esc(a.modelo)}</div>
-        <div class="modal-subtitle">${a.anio ? 'Año ' + a.anio : ''} ${a.dominio ? '· ' + esc(a.dominio) : ''}</div>
+        <div class="modal-subtitle">${a.anio ? 'Año ' + a.anio : ''}</div>
       </div>
       <button class="modal-close" onclick="closeModal()"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 18 6M6 6l12 12"/></svg></button>
     </div>
